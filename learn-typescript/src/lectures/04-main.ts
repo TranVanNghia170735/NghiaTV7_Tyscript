@@ -9,6 +9,8 @@ interface Student {
     name: string;
     age: number;
 }
+let count: 1;
+count = 1;
 
 function createStudent({id, name, age}: Student) {
     // const { id, name, age } = s;
